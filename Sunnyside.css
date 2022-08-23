@@ -1,0 +1,150 @@
+
+body{
+    padding: 40px;
+}
+
+
+.sec1 {
+    background-image: url("image-header.jpg");
+    height: 50%;
+    background-position: center;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Barlow', sans-serif;
+    
+
+}
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    header li{ 
+        float: right;
+        margin: 15px;
+        padding: 8px;
+        font-size: 10px;
+        
+        
+    }
+    h3{
+        float: left;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    h1{
+        padding-top: 3em;
+        font-family: 'Fraunces', serif;
+        text-align: center;
+    }
+    h2{
+        font-family: 'Fraunces', serif;
+        text-align: left;
+    }
+    button{
+        color: black;
+
+        border: 0;
+        padding: 8px;
+        border-radius: 5px;
+        margin-top: 0;
+        
+
+    }
+    .but{
+        display: block;
+        border-radius: 20px;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .nav{
+        display: none;
+    }
+    .slide1{
+        display: flex;
+        flex-direction: column-reverse;
+ 
+         }
+         .slide2, .slide3{
+             display: flex;
+             flex-direction: column;
+         }
+         
+          img{
+             width: 100%;
+             
+         }
+         
+    .tab1, .tab2{
+             flex: 50%;
+                    }
+        .tab1{
+            text-align: center;
+            width: 50%;
+            align-self: center;
+            
+            
+        }
+        .tab2{
+            height: 10px;
+            padding: 20px 50px;
+        }
+        h2{
+        text-align: center;
+        }
+svg{
+    float: right;
+    padding: 20px;
+    
+}
+
+
+ @media (min-width:600px) {
+     
+        .slide1, .slide2{
+            flex-direction: row;
+        }
+        
+        .tab1, .tab2{
+             
+            width: 50%;
+        }
+        .nav{
+            display: contents;
+        }
+             
+         }
+         
+
+        
+    
+    p{
+        font-family: 'Barlow', sans-serif;
+        
+    }
+    h4{
+        font-family: 'Fraunces', serif;
+    }
+    .slide2, .slide3 {
+        display: flex;
+    }
+    .tabb1{
+        position: relative;
+        text-align: center;
+    }
+    .insert1{
+        position: absolute;
+        top: 50%;
+        left: 35%;
+       
+    }
+    .insert2{
+        position: absolute;
+        top: 60%;
+        padding: 2rem 7rem;
+    }
+    
+   
